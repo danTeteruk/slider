@@ -4,7 +4,7 @@ body {
   background-color: white;
 }
 
-.carousel {
+.slider {
   margin: auto;
   margin-top: 50px;
   position: relative;
@@ -18,7 +18,7 @@ body {
   box-shadow: 2px 0px 54px 12px rgba(0,0,0,0.75);
 }
 
-.carousel img {
+.slider img {
   width: 1000px;
   height: 500px;
 
@@ -109,9 +109,6 @@ li {
   padding: 0;
   list-style: none;
   transition: margin-left .5s;
-  /* remove white-space between inline-block'ed li */
-  /* http://davidwalsh.name/remove-whitespace-inline-block */
-
   font-size: 0;
 }
 

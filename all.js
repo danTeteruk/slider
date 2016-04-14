@@ -5,13 +5,13 @@ window.onload = function() {
     this.width = 1000;
     this.position = 0;
     this.timing = 3000;
-    this.carousel = document.getElementById('carousel');
-    this.list = this.carousel.querySelector('ul');
-    this.listElems = this.carousel.querySelectorAll('li');
+    this.slider = document.getElementById('slider');
+    this.list = this.slider.querySelector('ul');
+    this.listElems = this.slider.querySelectorAll('li');
 
     this.go = setInterval(this.next.bind(this), this.timing);
-    this.carousel.querySelector(".next").onclick = this.next.bind(this);
-    this.carousel.querySelector(".prev").onclick = this.prev.bind(this);
+    this.slider.querySelector(".next").onclick = this.next.bind(this);
+    this.slider.querySelector(".prev").onclick = this.prev.bind(this);
     document.querySelector(".timingGet").onclick = this.setTiming.bind(this);
 
   }
